@@ -71,6 +71,6 @@ public class ProductBean implements Serializable {
 	
 	@Override
 	public String toString() {
-		return nome + " (" + codice + "), " + prezzo+" "+ quantita+". " +descrizione ;
+		return nome + " (" + codice + "), " + prezzo+" "+ quantita+". " +descrizione + tipo ;
 	}
 }
